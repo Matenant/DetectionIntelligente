@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ConnexionControl">
+   <children>
+      <Label layoutX="275.0" layoutY="292.0" text="Entrer le mot de passe :" />
+      <Button layoutX="361.0" layoutY="338.0" mnemonicParsing="false" onAction="#recupMdp" prefHeight="25.0" prefWidth="78.0" text="Valider" />
+      <Label fx:id="erreurMDP" layoutX="386.0" layoutY="207.0" />
+      <PasswordField fx:id="mdp" layoutX="400.0" layoutY="288.0" />
+   </children>
+</AnchorPane>
